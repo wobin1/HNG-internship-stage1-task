@@ -9,7 +9,7 @@ def index():
     slackUsername = "Nathaniel"
     backend = True
     age = 28
-    bio = "Am a developer who loved coding in python"
+    bio = "Software developer and technical writer"
 
     response = {
         "slackUsername": slackUsername,
