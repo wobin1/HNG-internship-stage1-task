@@ -4,9 +4,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, resources={r"*": {"origins": "*"}})
 
-@app.route("/", methods=["GET"])
+@app.route("/")
 def index():
-    slackUsername = "string"
+    slackUsername = "Nathaniel"
     backend = True
     age = 28
     bio = "Am a developer who loved coding in python"
