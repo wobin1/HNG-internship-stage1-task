@@ -6,7 +6,7 @@ CORS(app, resources={r"*": {"origins": "*"}})
 
 @app.route("/")
 def index():
-    slackUsername = "Nathaniel"
+    slackUsername = "Nats"
     backend = True
     age = 28
     bio = "Software developer and technical writer"
